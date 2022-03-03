@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #98B0B6;
+}
+
+header{
+
+    background: #ACDFEB;
+    border: 1px solid #B8B8B8;
+    width: 1152px;
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 85px;
+}
+
+#Imagem-adidas{
+    margin-left: 70px;
+    margin-top: 17px;
+}
+
+#Button-homem{
+    cursor: pointer;
+    background: #ACDFEB;
+    border: none;
+    margin-left: 122px;
+    font-family: 'Lato'
+}
+
+
+#Button-homem:hover, #Button-Mulher:hover, #Button-Produtos:hover, #Button-Coleção:hover{
+    opacity: 0.5;
+}
+
+#Button-homem:active, #Button-Mulher:active, #Button-Produtos:active, #Button-Coleção:active{
+    opacity: 0.3;
+}
+
+
+
+#Div-Opção{
+    position: absolute;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+    margin-left: 227px;
+    background: #ACDFEB;
+    width: 102px;
+}
+
+#Div-Opção-2{
+    position: absolute;
+    display: none;
+    margin-top: 58px;
+    margin-left: 227px;
+    background: #ACDFEB;
+    width: 102px;
+    height: 41px;
+    text-align: center;
+    padding-top: 5px;
+    border-top: solid turquoise;
+}
+
+#Div-Opção:hover, #Div-Opção-2:hover{
+    opacity: 0.6;
+}
+
+
+#Div-Opção:active, #Div-Opção-2:active{
+    opacity: 0.2;
+}
+
+#Button-Mulher{
+    cursor: pointer;
+    background: #ACDFEB;
+    border: none;
+    margin-left: 50px;
+    font-family: 'Lato'
+}
+
+#Div-Opção-Mulher{
+    position: absolute;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+    margin-left: 327px;
+    background: #ACDFEB;
+    width: 102px;
+
+}
+
+#Div-Opção-Mulher-2{
+    position: absolute;
+    display: none;
+    margin-top: 58px;
+    margin-left: 327px;
+    background: #ACDFEB;
+    width: 102px;
+    height: 41px;
+    text-align: center;
+    padding-top: 5px;
+    border-top: solid turquoise;
+}
+
+#Div-Opção-Mulher:hover, #Div-Opção-Mulher-2:hover{
+    opacity:0.6
+}
+
+#Div-Opção-Mulher:active, #Div-Opção-Mulher-2:active{
+    opacity:0.2
+}
+
+#Button-Produtos{
+    cursor: pointer;
+    background: #ACDFEB;
+    border: none;
+    margin-left: 50px;
+    font-family: 'Lato'
+}
+
+#Opção-Produtos-1{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    margin-left: 429px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Opção-Produtos-2{
+    position: absolute;
+    display: none;
+    margin-top: 58px;
+    margin-left: 429px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 41px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Opção-Produtos-3{
+    position: absolute;
+    display: none;
+    margin-top: 99px;
+    margin-left: 429px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Opção-Produtos-4{
+    position: absolute;
+    display: none;
+    margin-top: 147px;
+    margin-left: 429px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Opção-Produtos-1:hover, #Opção-Produtos-2:hover, #Opção-Produtos-3:hover, #Opção-Produtos-4:hover{
+    opacity: 0.6;
+}
+
+#Opção-Produtos-1:active, #Opção-Produtos-2:active, #Opção-Produtos-3:active, #Opção-Produtos-4:active{
+    opacity: 0.2;
+}
+
+#Button-Coleção{
+    cursor: pointer;
+    background: #ACDFEB;
+    border: none;
+    margin-left: 50px;
+    font-family: 'Lato'
+
+}
+
+#Coleção-Primavera{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    margin-left: 551px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#Coleção-Verão{
+    position: absolute;
+    display: none;
+    margin-top: 58px;
+    margin-left: 551px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Coleção-Outono{
+    position: absolute;
+    display: none;
+    margin-top: 99px;
+    margin-left: 551px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Coleção-Inverno{
+    position: absolute;
+    display: none;
+    margin-top: 147px;
+    margin-left: 551px;
+    background: #ACDFEB;
+    width: 123px;
+    height: 48px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid turquoise;
+}
+
+#Coleção-Primavera:hover, #Coleção-Verão:hover, #Coleção-Outono:hover, #Coleção-Inverno:hover{
+    opacity: 0.6;
+}
+
+#Coleção-Primavera:active, #Coleção-Verão:active, #Coleção-Outono:active, #Coleção-Inverno:active{
+    opacity: 0.2;
+}
+
+
+
+
+#Sino-Imagem{
+    margin-top: 28px;
+    border: none;
+    background: #ACDFEB;
+    margin-left: 220px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#Icone-Notificação{
+    position: absolute;
+    display: none;
+    margin-left: 854px;
+    margin-top: -44px;
+
+}
+#Tênis-Notificação{
+
+    height: 111px;
+    position: absolute;
+    width: 103px;
+    margin-left: 22px;
+}
+
+#Tênis-Notificação2{
+    height: 111px;
+    width: 103px;
+    margin-left: 2px;
+}
+
+.Notificação{
+    cursor: pointer;
+    margin-top: 31px;
+    margin-left: 257px;
+    position: absolute;
+}
+
+#Caixa-Mensagem-Notificação{
+    position: absolute;
+    display: none;
+    margin-top: 10px;
+    width: 327px;
+    height: 112px;
+    background: azure;
+    margin-left: 823px;
+}
+
+#Texto-Notificação{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 12px;
+}
+
+main{
+    margin-left: 200px;
+    width: 1152px;
+    height: 700px;
+    background: #D7F1F8;
+    box-shadow: 20px 20px 30px rgb(69 94 100 / 40%);
+    border-radius: 7px;
+}
+
+
+.Imagem-Principal-Tênis{
+    position: absolute;
+    width: 343px;
+    height: 351px;
+    margin-left: 93px;
+    margin-top: 143px;
+}
+
+.Imagem-Pricipal-Tênis1{
+    width: 360px;
+    margin-top: 70px;
+    margin-left: 21px;
+}
+
+.Label-Adidas{
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 322px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.Valor{
+    margin-top: 99px;
+    margin-left: 343px;
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+#Cor1{
+    cursor: pointer;
+    margin-top: 255px;
+    margin-left: 590px;
+    background: #555700;
+    border-radius: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+#Cor2{
+    cursor: pointer;
+    background: #CDC509;
+    border-radius: 10px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 650px;
+    margin-top: 255px;   
+}
+
+#Cor3{
+    cursor: pointer;
+    position: absolute;
+    width: 40px; 
+    height: 40px;
+    margin-left: 710px;
+    margin-top: 255px;
+    background: #455E64;
+    border-radius: 10px;
+}
+
+#Cor1:hover, #Cor2:hover, #Cor3:hover{
+    opacity: 0.8;
+}
+
+#Cor1:active,#Cor2:active,#Cor3:active{
+    opacity: 0.3;
+}
+
+p{
+    cursor: pointer;
+    position: absolute;
+    width: 408px;
+    height: 20px;
+    margin-left: 590px;
+    margin-top: 408px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:19,5px;
+    letter-spacing: 5px;
+    color: #000000;
+}
+
+
+
+#Seletor-Tam{
+    position: absolute;
+    width: 15px;
+    height: 0px;
+    margin-left: 721px;
+    margin-top: 438px;
+    border: 4px solid #3d9761;
+    transform: rotate(90deg);
+}
+
+#Caixa-Caminhão{
+    position: absolute;
+    border-radius: 30px;
+    width: 45px;
+    height: 45px;
+    margin-left: 590px;
+    margin-top: 477px;
+    background: #B8B8B8;
+}
+
+#Imagem-Caminhão{
+    padding: 10px 10px;
+}
+
+#Texto-Frete{
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #455E64;
+}
+
+#Adicionar-Carrinho{
+    position: absolute;
+    width: 321px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 577px;
+    margin-top: 579px;
+    background: #CDC509;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #F1F1F1;
+}
+
+#Adicionar-Carrinho:hover{
+        opacity: 0.8;
+}
+
+#Adicionar-Carrinho:active{
+    opacity: 0.5;
+}
+
+#Caixa-Favoritos{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    margin-left: 912px;
+    margin-top: 588px;
+    background: #B8B8B8;
+}
+
+#Imagem-Favoritos{
+    padding: 12px 9px;
+}
